@@ -1,0 +1,19 @@
+# Node.js and React
+node_modules/
+build/
+dist/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
