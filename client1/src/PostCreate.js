@@ -1,12 +1,14 @@
+
 import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 
 const PostCreate = () => {
 
-    const [title, setTitle] = useState();
+    const [title, setTitle] = useState('');
 
     const CreatePost = async () => {
+        console.log(title);
         await axios.post('http://localhost:4000/posts', {
             title
         });
